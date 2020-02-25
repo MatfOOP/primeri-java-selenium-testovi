@@ -49,6 +49,11 @@ public class ProveriNaslovTest {
 		
 	}
 
+	@Test
+	public void SigurnoJeOK() {
+	  Assert.assertTrue(true);
+	}
+	
 	@AfterTest
 	public void afterTest() {
 		driver.close();
